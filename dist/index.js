@@ -1,5 +1,0 @@
-"use strict";var l=function(n,e){return function(){return e||n((e={exports:{}}).exports,e),e.exports}};var m=l(function(w,u){
-var v=require('@stdlib/slice-multi/dist'),f=require('@stdlib/ndarray-base-ndims/dist'),c=require('@stdlib/ndarray-base-slice/dist'),g=require('@stdlib/array-base-filled/dist'),o=require('@stdlib/error-tools-fmtprodmsg/dist');function b(n,e,a,t,d){var s,r,i;if(r=f(n),r===0)throw new TypeError(o("invalid argument. First argument must be an ndarray having one or more dimensions. Number of dimensions: %d.",r));if(i=e,i<0){if(i+=r,i<0)throw new RangeError(o("invalid argument. Dimension index exceeds the number of dimensions. Number of dimensions: %d. Value: `%d`.",r,e))}else if(i>=r)throw new RangeError(o("invalid argument. Dimension index exceeds the number of dimensions. Number of dimensions: %d. Value: `%d`.",r,e));return s=g(null,r),s[i]=a,a=v.apply(null,s),c(n,a,t,d)}u.exports=b
-});var h=m();module.exports=h;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
