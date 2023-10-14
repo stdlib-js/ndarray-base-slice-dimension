@@ -39,8 +39,8 @@
   "dependencies": {
     "@stdlib/array-base-filled": "^0.1.0",
     "@stdlib/ndarray-base-ndims": "^0.1.0",
-    "@stdlib/ndarray-base-slice": "github:stdlib-js/ndarray-base-slice#main",
-    "@stdlib/slice-multi": "^0.1.0",
+    "@stdlib/ndarray-base-slice": "^0.1.0",
+    "@stdlib/slice-base-args2multislice": "github:stdlib-js/slice-base-args2multislice#main",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
