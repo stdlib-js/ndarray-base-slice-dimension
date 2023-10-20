@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-slice-dimension
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import sliceDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-dimension@deno/mod.js';
+var sliceDimension = require( '@stdlib/ndarray-base-slice-dimension' );
 ```
 
 #### sliceDimension( x, dim, slice, strict, writable )
@@ -60,9 +76,9 @@ import sliceDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-s
 Returns a view of an input ndarray when sliced along a specified dimension.
 
 ```javascript
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
+var Slice = require( '@stdlib/slice-ctor' );
+var ndarray = require( '@stdlib/ndarray-ctor' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 var shape = [ 3, 2 ];
@@ -126,11 +142,11 @@ The function accepts the following arguments:
 <!-- eslint-disable new-cap -->
 
 ```javascript
-import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import sliceDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-dimension@deno/mod.js';
+var S = require( '@stdlib/slice-ctor' );
+var array = require( '@stdlib/ndarray-array' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
+var zeroTo = require( '@stdlib/array-base-zero-to' );
+var sliceDimension = require( '@stdlib/ndarray-base-slice-dimension' );
 
 // Alias `null` to allow for more compact indexing expressions:
 var _ = null;
@@ -214,7 +230,7 @@ var a6 = ndarray2array( y6 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -274,7 +290,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-slice-dimension/main/LICENSE
 
-[@stdlib/slice/ctor]: https://github.com/stdlib-js/stdlib/tree/deno
+[@stdlib/slice/ctor]: https://github.com/stdlib-js/stdlib
 
 </section>
 
