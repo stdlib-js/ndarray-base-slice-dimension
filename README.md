@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sliceDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-dimension@esm/index.mjs';
+import sliceDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-dimension@v0.2.0-esm/index.mjs';
 ```
 
 #### sliceDimension( x, dim, slice, strict, writable )
@@ -135,7 +135,7 @@ import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import sliceDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-dimension@esm/index.mjs';
+import sliceDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-dimension@v0.2.0-esm/index.mjs';
 
 // Alias `null` to allow for more compact indexing expressions:
 var _ = null;
